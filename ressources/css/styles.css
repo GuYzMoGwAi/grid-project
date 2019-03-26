@@ -92,12 +92,44 @@ footer {
     grid-row-gap: 15px;
 }
 
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px azure;
+  font-size: 15px;
+  text-align: center;
+  color: black;  
+
+}
+
+.grid-item.img1 {
+    background-image: url(../image/test1.jpg);
+    background-size: cover;
+    height: auto;
+    background-position: center;
+    grid-row: 1 /span 4;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+}
+
 .item-1 {
     background-image: url(../image/1.2.jpg);
     height: auto;
     background-position: center;
     background-size: cover;
+}
 
+.item-1:hover {
+    width: auto; /* on affiche l'image au carré */
+    height: auto;
+    border-radius: 50%;
 }
 
 .item-2 {
@@ -105,7 +137,12 @@ footer {
     height: auto;
     background-position: center;
     background-size: cover;
+}
 
+.item-2:hover {
+    width: auto; /* on affiche l'image au carré */
+    height: auto;
+    border-radius: 50%;
 }
 
 
@@ -117,6 +154,12 @@ footer {
 
 }
 
+.item-3:hover {
+    width: auto; /* on affiche l'image au carré */
+    height: auto;
+    border-radius: 50%;
+}
+
 
 .item-4 {
     background-image: url(../image/4.jpg);
@@ -126,13 +169,24 @@ footer {
 
 }
 
+.item-4:hover {
+    width: auto; /* on affiche l'image au carré */
+    height: auto;
+    border-radius: 50%; 
+}
+
 
 .item-5 {
     background-image: url(../image/5.jpg);
     height: auto;
     background-position: center;
     background-size: cover;
+}
 
+.item-5:hover {
+    width: auto; /* on affiche l'image au carré */
+    height: auto;
+    border-radius: 50%;
 }
 
 
@@ -141,7 +195,12 @@ footer {
     height: auto;
     background-position: center;
     background-size: cover;
+}
 
+.item-6:hover {
+    width: auto; /* on affiche l'image au carré */
+    height: auto;
+    border-radius: 50%;
 }
 
 
@@ -150,7 +209,12 @@ footer {
     height: auto;
     background-position: center;
     background-size: cover;
+}
 
+.item-7:hover {
+    width: auto; /* on affiche l'image au carré */
+    height: auto;
+    border-radius: 50%;
 }
 
 
@@ -159,16 +223,28 @@ footer {
     height: auto;
     background-position: center;
     background-size: cover;
-
 }
+
+.item-8:hover {
+    width: auto; /* on affiche l'image au carré */
+    height: auto;
+    border-radius: 50%;
+}
+
 
 .item-9 {
     background-image: url(../image/9.1.jpg);
     height: auto;
     background-position: center;
     background-size: cover;
-
 }
+
+.item-9:hover {
+    width: auto; /* on affiche l'image au carré */
+    height: auto;
+    border-radius: 50%;
+}
+
 
 
 
