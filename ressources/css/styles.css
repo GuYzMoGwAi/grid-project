@@ -257,10 +257,10 @@ footer {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(9, 1fr);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px azure;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .grid-container h3.Stratégies {
@@ -344,6 +344,12 @@ footer {
     grid-column: 2/ 3;
     grid-row: 5/ 6;
     font-size: 25px;   
+}
+
+.grid-container p.sharegrid {
+    grid-column: 3/ 4;
+    grid-row: 5/ 6;
+
 } 
 
 
@@ -368,6 +374,11 @@ footer {
     grid-column: 2/ 3;
     grid-row: 7/ 8;
     font-size: 25px;   
+}
+
+.grid-container p.developjs {
+    grid-column: 5/ 6;
+    grid-row: 7/ 8;
 }
 
 
